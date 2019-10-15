@@ -1,0 +1,25 @@
+{
+  "name": "LIRIbot",
+  "version": "1.0.0",
+  "description": "Node.js example using the Axios, node-Spotify, OMDBI (movies info), MOment and DotEnv API's.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antwan024/LIRIbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antwan024/LIRIbot/issues"
+  },
+  "homepage": "https://github.com/antwan024/LIRIbot#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
