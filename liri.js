@@ -1,11 +1,9 @@
 require("dotenv").config();
-
 var Spotify = require('node-spotify-api');
 var axios = require("axios");
 var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 
-var 
 
 if(process.argv[2]==="concert-this") {
 
