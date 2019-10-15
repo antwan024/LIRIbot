@@ -77,7 +77,7 @@ var do_what_it_says = function() {
 	
 	fs.readFile("random.txt", "utf8", function(err, data)  {
 		
-		if (error) {
+		if (err) {
 			return console.log(error);
 		}
 		
